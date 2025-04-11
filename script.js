@@ -19,3 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+function showBankInfo() {
+  const bankInfo = process.env.BANK_INFO || 'Información bancaria no disponible';
+  alert(bankInfo);
+}
