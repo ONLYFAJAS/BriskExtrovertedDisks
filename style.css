@@ -92,14 +92,14 @@ section.active {
   transform: scale(1.1);
 }
 
-.skydrops-float {
+.bank-float {
   position: fixed;
-  bottom: 90px;
-  left: 20px;
+  bottom: 20px;
+  left: 90px;
   z-index: 1000;
 }
 
-.skydrops-float img {
+.bank-float img {
   width: 60px;
   height: 60px;
   background-color: white;
@@ -108,7 +108,26 @@ section.active {
   transition: transform 0.3s ease;
 }
 
-.skydrops-float img:hover {
+.bank-float img:hover {
+  transform: scale(1.1);
+}
+
+.social-float {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+
+.social-float img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-float img:hover {
   transform: scale(1.1);
 }
 
