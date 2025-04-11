@@ -92,6 +92,26 @@ section.active {
   transform: scale(1.1);
 }
 
+.skydrops-float {
+  position: fixed;
+  bottom: 90px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.skydrops-float img {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.skydrops-float img:hover {
+  transform: scale(1.1);
+}
+
 h2 {
   color: #FF69B4;
   margin-bottom: 20px;
